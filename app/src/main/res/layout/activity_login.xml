@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Password"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan masukkan kata sandi anda untuk mengakses MobileBanking"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/kotak"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                    Password Login"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                    Masukkan password login"
+        android:textColor="@color/grey"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/garis"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mataann"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:text="Lupa kata sandi"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="313dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/red"
+        android:text="lanjut"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="653dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
